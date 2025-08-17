@@ -1,0 +1,630 @@
+[{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0300"
+  },
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "author": "J.K. Rowling",
+  "price": 150000,
+  "stock": 43,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://cdn11.bigcommerce.com/s-gibnfyxosi/images/stencil/2560w/products/172881/174498/51DF6ZR8G7L__38888.1615626055.jpg?c=1",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0301"
+  },
+  "title": "Harry Potter and the Chamber of Secrets",
+  "author": "J.K. Rowling",
+  "price": 152000,
+  "stock": 47,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://i.thenile.io/r1000/9780756903169.jpg?r=5e9cca868f261",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0302"
+  },
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "author": "J.K. Rowling",
+  "price": 155000,
+  "stock": 15,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://m.media-amazon.com/images/I/812CcFkEPCL.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0303"
+  },
+  "title": "Harry Potter and the Goblet of Fire",
+  "author": "J.K. Rowling",
+  "price": 158000,
+  "stock": 18,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://i.pinimg.com/originals/3f/d3/2d/3fd32d18d513a7868b5319280afa1e4b.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0304"
+  },
+  "title": "Harry Potter and the Order of the Phoenix",
+  "author": "J.K. Rowling",
+  "price": 160000,
+  "stock": 24,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://tse3.mm.bing.net/th/id/OIP._NVzEYuOraGjk-9qYSY0LwHaK9?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0305"
+  },
+  "title": "Harry Potter and the Half-Blood Prince",
+  "author": "J.K. Rowling",
+  "price": 162000,
+  "stock": 28,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://thelittlemanreviews.files.wordpress.com/2022/08/image-5.png?w=640",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0306"
+  },
+  "title": "Harry Potter and the Deathly Hallows",
+  "author": "J.K. Rowling",
+  "price": 165000,
+  "stock": 26,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://m.media-amazon.com/images/I/811t1pfIZXL._SL1500_.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0307"
+  },
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "price": 130000,
+  "stock": 19,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/R.9da61533a59de95fa5a12fad916604de?rik=YirMigGQorOK9A&pid=ImgRaw&r=0",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0308"
+  },
+  "title": "Rich Dad Poor Dad",
+  "author": "Robert Kiyosaki",
+  "price": 120000,
+  "stock": 22,
+  "description": "A highly acclaimed finance book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://tse2.mm.bing.net/th/id/OIP.evSojr1B2ha9aLNdWMMaWQHaLK?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0a"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0309"
+  },
+  "title": "The Intelligent Investor",
+  "author": "Benjamin Graham",
+  "price": 135000,
+  "stock": 15,
+  "description": "A highly acclaimed finance book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/R.79b98bf57298627f980b92cc5d6b5ba0?rik=o8mo57B%2fAwTEQw&pid=ImgRaw&r=0",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0a"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030a"
+  },
+  "title": "Think and Grow Rich",
+  "author": "Napoleon Hill",
+  "price": 125000,
+  "stock": 15,
+  "description": "A highly acclaimed finance book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://cdn2.penguin.com.au/covers/original/9781585427116.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0a"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030b"
+  },
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "price": 138000,
+  "stock": 23,
+  "description": "A highly acclaimed science fiction book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/15ba25105957829.5f851d78e1c3a.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030c"
+  },
+  "title": "Ender's Game",
+  "author": "Orson Scott Card",
+  "price": 120000,
+  "stock": 18,
+  "description": "A highly acclaimed science fiction book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://tse3.mm.bing.net/th/id/OIP.J_Gjm5Xo-RAkPLWDUo-MXgHaLY?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030d"
+  },
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "price": 145000,
+  "stock": 21,
+  "description": "A highly acclaimed science fiction book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/R.10245db2955c42c608707bd2b55c67b8?rik=5kfoI8zstDWclQ&pid=ImgRaw&r=0",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030e"
+  },
+  "title": "Foundation",
+  "author": "Isaac Asimov",
+  "price": 133000,
+  "stock": 18,
+  "description": "A highly acclaimed science fiction book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/R.9e1ee9fd0d16aeb0b1bddbc8d053a810?rik=kaLcgOEZWJfvVw&pid=ImgRaw&r=0",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e030f"
+  },
+  "title": "The Hound of the Baskervilles",
+  "author": "Arthur Conan Doyle",
+  "price": 110000,
+  "stock": 12,
+  "description": "A highly acclaimed mystery book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "data:image/webp;base64,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",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0310"
+  },
+  "title": "Gone Girl",
+  "author": "Gillian Flynn",
+  "price": 115000,
+  "stock": 16,
+  "description": "A highly acclaimed mystery book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.l5sdFAhxU8XiZP7zmu46lgHaLW?w=186&h=286&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0311"
+  },
+  "title": "The Girl with the Dragon Tattoo",
+  "author": "Stieg Larsson",
+  "price": 119000,
+  "stock": 14,
+  "description": "A highly acclaimed mystery book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.FYXxJUgGyZKVo0T-ZcdCwAHaLP?w=186&h=283&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0312"
+  },
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "price": 125000,
+  "stock": 19,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://cdn2.penguin.com.au/covers/original/9781473565425.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0313"
+  },
+  "title": "The 7 Habits of Highly Effective People",
+  "author": "Stephen R. Covey",
+  "price": 135000,
+  "stock": 22,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.BjaMNuDJxolKJrbi9R6kIwHaLR?w=186&h=284&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0314"
+  },
+  "title": "How to Win Friends and Influence People",
+  "author": "Dale Carnegie",
+  "price": 128000,
+  "stock": 15,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.Q8xCB0LnlidsUOsRyOmePAHaLc?w=186&h=287&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0315"
+  },
+  "title": "The Power of Now",
+  "author": "Eckhart Tolle",
+  "price": 120000,
+  "stock": 17,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.2O4RikONr1X0WqY0rb_zaQAAAA?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0316"
+  },
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "price": 150000,
+  "stock": 15,
+  "description": "A highly acclaimed technology book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.ZfYHb383Tk0kUMP-XsfWegHaJI?w=116&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0f"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0317"
+  },
+  "title": "The Pragmatic Programmer",
+  "author": "Andy Hunt",
+  "price": 148000,
+  "stock": 13,
+  "description": "A highly acclaimed technology book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.KI_tsGHe4sBa0xd3WjpMyQHaJs?w=126&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0f"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0318"
+  },
+  "title": "Code Complete",
+  "author": "Steve McConnell",
+  "price": 155000,
+  "stock": 11,
+  "description": "A highly acclaimed technology book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://pictures.abebooks.com/isbn/9783860635933-us.jpg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0f"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0319"
+  },
+  "title": "Sapiens",
+  "author": "Yuval Noah Harari",
+  "price": 145000,
+  "stock": 21,
+  "description": "A highly acclaimed history book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.AZzsxY7oQbCqWItZXYsl7gHaKQ?w=186&h=258&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a10"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031a"
+  },
+  "title": "Becoming",
+  "author": "Michelle Obama",
+  "price": 142000,
+  "stock": 16,
+  "description": "A highly acclaimed biography book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.0KSSkOJZlbONZ4AHgLMzEgHaLQ?w=123&h=187&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a11"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031b"
+  },
+  "title": "Steve Jobs",
+  "author": "Walter Isaacson",
+  "price": 120000,
+  "stock": 18,
+  "description": "A highly acclaimed biography book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.QRXelX9xumwEWQbYOMUYkQHaLm?w=186&h=292&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a11"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031c"
+  },
+  "title": "Elon Musk",
+  "author": "Walter Isaacson",
+  "price": 125000,
+  "stock": 20,
+  "description": "A highly acclaimed biography book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.COO2XQb0DDrvq7HTxCC0PQHaLT?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a11"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031d"
+  },
+  "title": "Guns, Germs, and Steel",
+  "author": "Jared Diamond",
+  "price": 130000,
+  "stock": 16,
+  "description": "A highly acclaimed history book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.og4BZuldPqqXc5u1JcLr6gHaLL?w=186&h=281&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a10"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031e"
+  },
+  "title": "A Brief History of Time",
+  "author": "Stephen Hawking",
+  "price": 125000,
+  "stock": 14,
+  "description": "A highly acclaimed history book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.ebsF_wDB5cVndj0An_DuaAHaLJ?w=186&h=280&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a10"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e031f"
+  },
+  "title": "The Lean Startup",
+  "author": "Eric Ries",
+  "price": 115000,
+  "stock": 12,
+  "description": "A highly acclaimed technology book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.xUC_NeAlMsm--ZvL87nRygHaLU?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0f"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0320"
+  },
+  "title": "Deep Work",
+  "author": "Cal Newport",
+  "price": 120000,
+  "stock": 10,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.6B262S29EtWKVmQWcDtEeQHaLp?w=118&h=186&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0321"
+  },
+  "title": "The Subtle Art of Not Giving a F*ck",
+  "author": "Mark Manson",
+  "price": 125000,
+  "stock": 13,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.wDU5rvuj_fnCClA5Q0OqxwHaLP?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0322"
+  },
+  "title": "The Da Vinci Code",
+  "author": "Dan Brown",
+  "price": 128000,
+  "stock": 15,
+  "description": "A highly acclaimed mystery book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.3iDWciehKMfv_w2xlxz3XQHaLY?w=186&h=286&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0323"
+  },
+  "title": "Angels & Demons",
+  "author": "Dan Brown",
+  "price": 122000,
+  "stock": 14,
+  "description": "A highly acclaimed mystery book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.Y4u2prbps8MrnUAKrlu0EgHaLg?w=186&h=289&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0324"
+  },
+  "title": "Neuromancer",
+  "author": "William Gibson",
+  "price": 126000,
+  "stock": 17,
+  "description": "A highly acclaimed science fiction book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.VqFHu7Hh0qNBud7bWgybqwHaLG?w=186&h=279&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0325"
+  },
+  "title": "Make Your Bed",
+  "author": "William H. McRaven",
+  "price": 112000,
+  "stock": 13,
+  "description": "A highly acclaimed self-help book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.gSa9WD1k69Y0RUt1tA2ctQHaLW?w=120&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0326"
+  },
+  "title": "The Millionaire Fastlane",
+  "author": "MJ DeMarco",
+  "price": 135000,
+  "stock": 19,
+  "description": "A highly acclaimed finance book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://cdn.dc5.ro/img-prod/262155301-0.jpeg",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0a"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f6f1a9e13f3a5b2c1e0327"
+  },
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "price": 130000,
+  "stock": 21,
+  "description": "A highly acclaimed fantasy book.",
+  "publishedDate": "2000-01-01",
+  "coverImage": "https://th.bing.com/th/id/OIP.5J5NM91_bIqBij-CbxIVNwHaLN?w=186&h=281&c=7&r=0&o=7&pid=1.7&rm=3",
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0b"
+  }
+},
+{
+  "_id": {
+    "$oid": "6876fabf113090c0d590cf69"
+  },
+  "title": "test2",
+  "author": "nhat2",
+  "price": 22000,
+  "stock": 2,
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0c"
+  },
+  "description": "hay",
+  "coverImage": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6876fad2113090c0d590cf6e"
+  },
+  "title": "testsoldout",
+  "author": "nhat2",
+  "price": 22000,
+  "stock": 0,
+  "category": {
+    "$oid": "686ea2986fe201d24e897a0d"
+  },
+  "description": "hay",
+  "coverImage": "",
+  "__v": 0
+}]
