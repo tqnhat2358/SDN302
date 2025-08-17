@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chi tiết sách</title>
+
+  <!-- ✅ Dùng đường dẫn tuyệt đối để tránh lỗi khi URL là /book_detail/:id -->
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/footer.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div id="header-container"></div>
+  <script src="/scripts/loadHeader.js" defer></script>
+
+  <main class="detail-container">
+    <section class="book-detail" id="book-detail">
+      <p>Đang tải...</p>
+    </section>
+
+    <aside class="related-section">
+      <div id="suggestions" class="suggestions"></div>
+    </aside>
+  </main>
+
+  <div id="footer-container"></div>
+  <script src="/scripts/loadFooter.js" defer></script>
+  <script src="/scripts/book_detail.js" defer></script>
+</body>
+
+</html>

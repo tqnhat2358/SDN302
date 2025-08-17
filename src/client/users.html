@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    const userStr = localStorage.getItem('user');
+    if (!userStr) {
+      window.location.href = '/login';
+    } else {
+      const user = JSON.parse(userStr);
+      if (user.role !== 'admin') {
+        alert('Bạn không có quyền truy cập trang quản lý sách.');
+        window.location.href = '/shop';
+      }
+    }
+  </script>
+
+  <title>📚 Quản lý Người Dùng</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="scripts/users.js" defer></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div id="header-container"></div>
+  <script src="scripts/loadHeader.js"></script>
+  <div class="container">
+    
+  <h1>👥 Danh sách người dùng</h1>
+  <table border="1" id="user-table">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Họ tên</th>
+        <th>Email</th>
+        <th>Vai trò</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody id="user-body">
+      <!-- JavaScript sẽ đổ dữ liệu vào đây -->
+    </tbody>
+  </table>
+</body>
+
+</html>

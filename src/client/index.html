@@ -1,0 +1,40 @@
+<h1>📚 Bookstore Admin</h1>
+<ul>
+  <li><a href="/books">Quản lý sách</a></li>
+  <li><a href="/users">Quản lý người dùng</a></li>
+  <li><a href="/orders">Quản lý đơn hàng</a></li>
+  <li id="auth-links">
+    <a href="/login">Đăng nhập</a> | <a href="/register">Đăng ký</a>
+  </li>
+</ul>
+
+<script>
+  const userStr = localStorage.getItem('user');
+  if (!userStr) {
+    window.location.href = '/login';
+  } else {
+    const user = JSON.parse(userStr);
+    if (user.role !== 'admin') {
+      alert('Bạn không có quyền truy cập này.');
+      window.location.href = '/shop';
+    }
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const authLinks = document.getElementById('auth-links');
+    const user = localStorage.getItem('user');
+
+    if (authLinks && user) {
+      authLinks.innerHTML = `
+      <a href="#" id="logout-link">Đăng xuất</a>
+    `;
+
+      document.getElementById('logout-link').addEventListener('click', (e) => {
+        e.preventDefault();
+        localStorage.removeItem('user');
+        localStorage.removeItem('token');
+        alert('Đã đăng xuất');
+        window.location.href = '/login';
+      });
+    }
+  });
+</script>

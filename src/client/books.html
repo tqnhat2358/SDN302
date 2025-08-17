@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    const userStr = localStorage.getItem('user');
+    if (!userStr) {
+      window.location.href = '/login';
+    } else {
+      const user = JSON.parse(userStr);
+      if (user.role !== 'admin') {
+        alert('Bạn không có quyền truy cập trang quản lý sách.');
+        window.location.href = '/shop';
+      }
+    }
+  </script>
+
+  <title>📚 Quản lý Sách</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="scripts/books.js" defer></script>
+</head>
+
+
+<body>
+  <!-- HEADER -->
+  <div id="header-container"></div>
+  <script src="scripts/loadHeader.js"></script>
+  <div class="container">
+
+    <!-- MAIN CONTENT -->
+    <h1>📚 Quản lý Sách</h1>
+    <form id="book-form">
+      <input type="hidden" name="bookId" />
+      <div class="form-grid">
+        <input name="title" placeholder="📖 Tên sách" required />
+        <input name="author" placeholder="✍️ Tác giả" />
+        <input name="price" type="number" placeholder="💰 Giá tiền" />
+        <input name="stock" type="number" placeholder="📦 Số lượng" />
+        <select name="category" id="category-select">
+          <option value="">📚 Chọn thể loại</option>
+        </select>
+        <input name="coverImage" type="url" placeholder="🌆 Link ảnh bìa (coverImage)" />
+        <input name="description" placeholder="📝 Mô tả sách" rows="3"></input>
+      </div>
+      <button type="submit">💾 Lưu sách</button>
+    </form>
+
+    <div class="search-sort">
+      <input type="text" id="search" placeholder="🔍 Tìm kiếm sách..." />
+      <select id="sort">
+        <option value="">🔽 Sắp xếp</option>
+        <option value="price">Giá tăng</option>
+        <option value="price-desc">Giá giảm</option>
+        <option value="stock">Số lượng tăng</option>
+        <option value="stock-desc">Số lượng giảm</option>
+      </select>
+    </div>
+
+    <ul id="book-list" class="book-list"></ul>
+
+    <div id="pagination" class="pagination"></div>
+  </div>
+</body>
+
+</html>

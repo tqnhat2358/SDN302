@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>📝 Đăng ký</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('register-form');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const body = {
+          name: form.name.value.trim(),
+          email: form.email.value.trim(),
+          password: form.password.value.trim(),
+          address: form.address.value.trim(),
+          age: +form.age.value,
+          phoneNumber: form.phoneNumber.value.trim()
+        };
+
+        const res = await fetch('http://localhost:9999/api/users/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+
+        if (res.ok) {
+          alert('Đăng ký thành công! Chuyển đến đăng nhập.');
+          window.location.href = 'login.html';
+        } else {
+          const error = await res.json();
+          alert(`Đăng ký thất bại: ${error.message || 'Đã có lỗi xảy ra'}`);
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <form id="register-form">
+    <h1 style="text-align: center;">Đăng ký tài khoản</h1>
+    <input name="name" placeholder="Tên" required />
+    <input name="email" type="email" placeholder="Email" required />
+    <input name="password" type="password" placeholder="Mật khẩu" required />
+    <input name="address" placeholder="Địa chỉ" required />
+    <input name="age" type="number" placeholder="Tuổi" min="0" required />
+    <input name="phoneNumber" placeholder="Số điện thoại" required />
+    <button type="submit">Đăng ký</button>
+  </form>
+
+  <p>Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+</body>
+</html>

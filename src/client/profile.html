@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>🧾 Hồ sơ cá nhân</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="scripts/profile.js" defer></script>
+</head>
+<body>
+  <!-- Header dùng chung -->
+  <div id="header-container"></div>
+  <script src="scripts/loadHeader.js"></script>
+
+  <div class="container">
+    <form id="profile-form" class="form-grid">
+      <h1 style="text-align: center;">🧾 Hồ sơ người dùng</h1>
+      <input name="name" placeholder="Họ tên" required />
+      <input name="email" placeholder="Email" disabled />
+      <input name="address" placeholder="Địa chỉ" />
+      <input name="age" placeholder="Tuổi" type="number" min="0" />
+      <input name="phoneNumber" placeholder="Số điện thoại" />
+      <input name="password" placeholder="Mật khẩu mới (nếu có)" type="password" />
+      <button type="submit" class="btn">Lưu thay đổi</button>
+    </form>
+  </div>
+</body>
+</html>

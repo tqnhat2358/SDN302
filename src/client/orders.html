@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Quản lý đơn hàng</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="scripts/orders.js" defer></script>
+  <script src="scripts/loadHeader.js" defer></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div id="header-container"></div>
+
+  <main>
+    <h1>🧾 Quản lý đơn hàng</h1>
+    <div class="filter-bar" style="margin: 20px auto; width: 90%; display: flex; justify-content: flex-end;">
+      <label for="status-filter" style="margin-right: 8px; font-weight: bold;">Lọc theo trạng thái:</label>
+      <select id="status-filter" style="padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc;">
+        <option value="all">Tất cả</option>
+        <option value="pending">Đang xử lý</option>
+        <option value="shipped">Đang giao</option>
+        <option value="delivered">Đã giao</option>
+      </select>
+    </div>
+
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th>Mã đơn</th>
+          <th>Người đặt</th>
+          <th>Số điện thoại</th>
+          <th>Địa chỉ</th>
+          <th>Sản phẩm</th>
+          <th>Tổng tiền</th>
+          <th>Trạng thái</th>
+          <th>Ngày tạo</th>
+          <th>Thao tác</th>
+        </tr>
+      </thead>
+      <tbody id="order-list"></tbody>
+    </table>
+  </main>
+</body>
+
+</html>

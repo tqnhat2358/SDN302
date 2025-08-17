@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Fahasa Style Bookstore</title>
+  <link rel="stylesheet" href="assets/shop.css" />
+  <link rel="stylesheet" href="assets/footer.css" />
+  <link rel="stylesheet" href="assets/header.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header-container"></div>
+    <script src="scripts/loadHeader.js"></script>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <main>
+        <div class="search-container">
+          <input type="text" id="search" placeholder="🔍 Tìm kiếm sách..." oninput="searchBooks(this.value)" />
+        </div>
+
+        <div class="shop-layout">
+          <!-- LEFT SIDEBAR -->
+          <aside class="sidebar">
+            <h3>🔽 Sắp xếp</h3>
+            <label><input type="radio" name="sort" value="" checked> Mặc định</label><br>
+            <label><input type="radio" name="sort" value="price"> Giá tăng</label><br>
+            <label><input type="radio" name="sort" value="price-desc"> Giá giảm</label><br>
+
+            <hr>
+
+            <h3>📚 Thể loại</h3>
+            <div id="category-filter">
+              <label><input type="radio" name="category" value="" checked> Tất cả thể loại</label><br>
+              <!-- JS sẽ thêm các thể loại -->
+            </div>
+          </aside>
+
+          <!-- RIGHT CONTENT -->
+          <section class="content">
+            <h2 class="title">Sách đề xuất cho bạn: </h2>
+            <div id="book-list" class="book-grid"></div>
+            <div id="pagination" class="pagination"></div>
+          </section>
+        </div>
+
+      </main>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer-container"></div>
+    <script src="scripts/loadFooter.js"></script>
+  </div>
+
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/shop.js"></script>
+
+</body>
+
+</html>
